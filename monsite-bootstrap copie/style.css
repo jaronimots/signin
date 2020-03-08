@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+          to right, 
+          #FFFFFF 0%, 
+          #FFFFFF 55%, 
+          #2BDBAB 55%, 
+          #2BDBAB 100%
+        );
+
+
+    width: 100%;
+    height: 100vh; /* viewport height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    box-shadow: 2px 4px 10px rgb(2, 2, 2);
+}
+
+
+.right {
+
+    height: 100%;
+    background-color: #2BDBAB;
+    background-image: url("img_dj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    }
+    .right{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    }
+.green{
+    width: calc(100% + 30px);
+    height: 100%;
+    background-color: rgba(43, 219, 172, 0.795);
+    margin-left: -15px;
+    margin-right: -15px;
+
+
+}
